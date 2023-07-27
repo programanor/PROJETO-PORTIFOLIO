@@ -1,0 +1,278 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.container{
+    display: grid;/*avisando sempre que vai usar essas funções display grid*/
+    grid-auto-flow: column;/*quando as colunas vericais não tem quatidade definida .Então aqui alinahda automaticamrnte.*/
+    grid-auto-columns: 1fr;/*o espaçameto que vai ficar entre as linhas das colunas em frime(fr)*/
+}
+#head{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* text-decoration-line: underline; */
+    color: #070F18;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#menu ul{
+    list-style-type: none;/*tira as bolinhas da lista não ordenadas*/
+    margin: 0px;
+    padding: 0px;
+
+}
+#menu , li, a{
+    display: inline-block;/*exibição na mesma linha e em blocos*/
+    margin-left: 10px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: normal;
+    /* font-weight: 600; */
+    font-size: 16px;
+    line-height: 24px;
+    /* text-decoration-line: underline; */
+    color: #070F18;
+    /* text-align: center; */
+    text-decoration: none; 
+   
+   
+   
+
+    
+   
+    
+}
+#menu{
+    text-align: right;/*alinha testo a direita*/
+    margin-top: 49px;
+}
+a{
+    color: black;
+    
+}
+#buttonCta{
+    width: 180px;
+    height: 24px;
+    top: 507px;
+    left: 160px;
+    border-radius: 50px;
+    background: #1F7CFF;
+    font-family: Poppins;
+    font-size: 16px;
+    /* font-weight: 600; */
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none; /*retira a linah do padrão que vem no a href*/
+
+}
+#headerCta h1{
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 0em;
+     text-align: left;
+
+
+}
+#headerCta p{
+      width: 398px;
+      height: 64px;
+      top: 401px;
+      left: 160px;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+
+
+}
+
+#headerImag{
+  margin: 42px;/*demos essa marge para afastar a imagem do texto*/
+ 
+
+}
+#headerImag img{/*e aqui foi para manter a imagem em 100% do espaço dea div*/
+    width: 100%;
+}
+.headerlogo {
+    text-align: center;
+}
+#clients {
+    margin-top: 50px;
+    margin-top: 50px;
+
+}
+  
+
+#headerClientText{
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #070F18;
+}
+
+
+.red{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F75C4E;
+    margin-bottom: 0px;
+    
+
+}
+.blak{
+    font-family: Poppins;
+    font-size: 26px;
+    /* font-weight: 700; */
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+    margin-top: 0px;
+    
+}
+#service p{
+    text-align: center;
+
+}
+.textCenter{
+    text-align: center;
+}
+#services .textCenter h3{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#070F18;
+    
+
+}
+#services .textCenter p{
+    font-family: Poppins;
+    font-size: 13px;
+    /* font-weight: 400; */
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #575455;
+    
+
+
+}
+#contactImagem img{
+    width: 100%;
+}
+#contactForm{
+    margin-left: 75px;
+}
+#contact{
+    margin-top: 100px;
+}
+#contactForm p{
+    font-family: Poppins;
+    font-size: 11px;
+    line-height: 32px;
+   text-align: center;
+   
+}
+#contactForm input{
+    background: #FFFFFF;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #575455;
+    border: 0; /*retira a bordaa totalmnente*/
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+   
+    
+}
+#contactForm button{
+    margin-top: 15PX;
+    width: 150px;
+    height: 40px;
+    border: 0;
+    cursor:pointer; 
+    border-radius: 50px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:  #FFFFFF;
+    background-color: #1F7CFF;
+
+}
+button:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s; 
+    /* transform: translateY(-7px); */
+}
+ 
+
+#portifolioTitulo {
+   margin-top:178px ;
+   
+}
+#portifolioTitulo ,h2 ,h1{
+    display: block;
+    text-align: left;
+
+}
+#portifolioTitulo h2{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    /* text-align: center; */
+    color: #F75C4E;
+    margin-bottom: 0px;
+
+}
+#portifolioTitulo h1{
+
+    font-family: Poppins;
+    font-size: 26px;
+    /* font-weight: 700; */
+    line-height: 54px;
+    letter-spacing: 0em;
+    /* text-align: center; */
+    color: #000000;
+    margin-top: 0px;
+}
+
+
+
+.portifolioImg img{
+    width: 100%;
+    
+}
+.portifolioImg{
+    padding: 13px;
+}
+
